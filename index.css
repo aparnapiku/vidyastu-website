@@ -1,0 +1,122 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.logo{
+    height: 95px;
+    width: 75px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 254, 255);
+    padding: 20px;
+}
+.btn{
+    background-color: yellow;
+    border-radius: 18px;
+    padding: 10px 15px;
+    color: brown;
+}
+nav ul{
+    display: flex;
+    list-style: none; 
+    align-items: center;
+}
+nav ul li{
+    margin-left: 40px;
+    color: rgb(20, 16, 230);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17.2px;
+}
+.front-image{
+    height: 665px;
+    width: 100%;
+}
+.courses img{
+    height: 140px;
+    width: 140px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.courses{
+    text-align: center;
+    padding: 30px 0;
+}
+.technology{
+    padding: 50px;
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847__340.jpg);
+}
+.technology h1{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.technology .btn{
+    border: none;
+    text-transform: uppercase;
+}
+.courses h1{
+    color: blue;
+    font-size: 40px;
+}
+.placement h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.placement img{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+}
+.placement{
+    text-align: center;
+}
+.mid-div h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+
+}
+.mid-left img{
+    height: 350px;
+    width: 450px;
+    margin: 30px 
+}
+.mid-div{
+    display: flex;
+    background-color: rgb(247, 244, 240);
+}
+.our-courses{
+    text-align: center;
+    padding: 100px;
+}
+.our-courses-heading{
+    font-size: 30px;
+    color: blue;
+}
+.card{
+    background-color: rgb(163, 157, 157);
+    padding: 20px;
+    width: 15%;
+    border-radius: 8px; 
+    text-align: center;
+
+}
+.card img{
+    width: 100px;
+    border-radius: 5px;
+}
+.card .btn{
+    border: none;
+    text-transform: uppercase;
+    color: black
+}
+.card p{
+    margin: 15px 0px;
+    color: rgb(66, 63, 63);
+}
